@@ -1,0 +1,12 @@
+# ignore ALL files in ANY directory named temp
+racetrack-database/
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+#Virtual Environments
+venv/
+.venv/
+env/

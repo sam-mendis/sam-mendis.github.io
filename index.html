@@ -17,7 +17,7 @@
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
-            font-family: Arial, sans-serif;
+            font-family: 'Gill Sans', sans-serif;
             /* Choose an appropriate font-family */
         }
 
@@ -28,11 +28,11 @@
         }
 
         header h1 {
-            font-size: 36px;
+            font-size: 38px;
         }
 
         header p {
-            font-size: 18px;
+            font-size: 22px;
         }
 
         section {
@@ -47,6 +47,10 @@
             /* Dramatic red border under headings */
             padding-bottom: 10px;
             margin-bottom: 20px;
+        }
+
+        section p2 {
+            font-size: 18px;
         }
 
         /* Style links */
@@ -75,11 +79,13 @@
             /* Adjust the top distance as needed */
             right: 20px;
             /* Adjust the right distance as needed */
-            width: 200px;
+            width: auto;
+            /* max-width: 200px; */
             /* Set the width of the image */
-            height: auto;
+            height: 28%;
+            max-height: 250px;
             /* Maintain aspect ratio */
-            border: 2px solid #c0392b;
+            border: 1px solid #6b315e;
             /* White border around the image */
             border-radius: 0%;
             /* Make it a circle */
@@ -92,22 +98,26 @@
     <!-- Replace 'placeholder-image.jpg' with your image -->
     <header>
         <h1>Samuel Mendis</h1>
-        <p>Formula 1 Strategy Engineer</p>
+        <p>Formula One Strategy Engineer</p>
     </header>
 
     <section>
         <h2>About Me</h2>
-        <p>Hi, I'm Samuel Mendis. I'm an engineer working for a Formula One team in the UK within the strategy
-            department. I am an out of the box thinker who is keen to expand knowledge and experience within the wider
-            strategy industry.</p>
+        <p2>Hi, I'm Samuel Mendis, an engineer working for a UK based Formula One team within their strategy
+            department.</p2>
+
+        <br>
+        <p2>
+            I am an out of the box thinker who is keen to expand knowledge and experience within the wider
+            strategy industry.</p2>
     </section>
 
     <section>
         <h2>My Work</h2>
         <!-- Add images, descriptions, and links to your portfolio projects -->
         <div class="portfolio-item">
-            <img src="project1.jpg" alt="Project 1">
-            <p>Description of Project 1</p>
+            <img src="project1.jpg" alt="Strategy">
+            <p>Strategy Engineering</p>
             <a href="project1.html">View Project</a>
         </div>
         <div class="portfolio-item">
